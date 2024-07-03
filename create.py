@@ -1,39 +1,43 @@
 import requests
 import json
 
-# Endpoint e dados de login para obter o token
-token_url = 'https://dev.mileexpress.com.br/oauth/token'
-login_data = {
-    "grant_type": "password",
-    "client_id": 1,
-    "client_secret": "xwShEAUn6MJ82AZzaECmypbp6PmjTM3HPhDYaxE7",
-    "username": "hml@veddara.com.br",
-    "password": "SjXN6b8g3nS71",
-    "scope": "*"
-}
+# Função para obter o token de acesso
+def get_access_token():
+    token_url = 'https://dev.mileexpress.com.br/oauth/token'
+    login_data = {
+        "grant_type": "password",
+        "client_id": 1,
+        "client_secret": "xwShEAUn6MJ82AZzaECmypbp6PmjTM3HPhDYaxE7",
+        "username": "hml@veddara.com.br",
+        "password": "SjXN6b8g3nS71",
+        "scope": "*"
+    }
+    
+    response = requests.post(token_url, headers={'Content-Type': 'application/json'}, json=login_data)
+    
+    if response.status_code == 200:
+        return response.json()['access_token']
+    else:
+        raise Exception(f"Erro ao obter token: {response.status_code} - {response.text}")
 
-# Requisição para obter o token
-response = requests.post(token_url, headers={'Content-Type': 'application/json'}, json=login_data)
-
-# Verifica se a requisição foi bem-sucedida
-if response.status_code == 200:
-    token = response.json()['access_token']
-    print("Token obtido com sucesso:", token)
-
-    # Dados da ordem a ser criada (substitua pelos seus dados)
+# Função para criar a ordem de serviço
+def create_order(access_token):
+    order_url = 'https://dev.mileexpress.com.br/v1/order-service/create'
     order_data = {
         "volumes": [
-            {
-                "item_id": "44",
-                "description": "POMADA 20mg",
-                "sku": "4456456456456546456",
-                "commercial_value": 18.87,
-                "quantity": "1",
-                "customs_tax_classes_id": 11,
-                "customs_administrative_processes_id": "1"
-            }
+            [
+                {
+                    "item_id": "44",
+                    "description": "POMADA 20mg",
+                    "sku": "4456456456456546456",
+                    "commercial_value": 18.87,
+                    "quantity": "1",
+                    "customs_tax_classes_id": 11,
+                    "customs_administrative_processes_id": "1"
+                }
+            ]
         ],
-        "description": "POMADA  20mg",
+        "description": "POMADA 20mg",
         "freight": 35.85,
         "commercial_value": 18.87,
         "currency_id": 2,
@@ -42,12 +46,12 @@ if response.status_code == 200:
             "addresses": [
                 {
                     "number": 432,
-                    "additional_info": None,
+                    "additional_info": None,  # Corrigido de null para None
                     "country_id": 35,
                     "zip_code": "8805",
                     "address": "Rua",
                     "city": {
-                        "name": "Florianópolis",
+                        "name": "Florianopolis",
                         "uf": "SC"
                     },
                     "neighborhood": "Sa"
@@ -71,26 +75,28 @@ if response.status_code == 200:
         "by_pass_stock": True,
         "shipper_id": "1"
     }
-
-    # URL do endpoint para criar uma ordem
-    order_create_url = 'https://dev.mileexpress.com.br/v1/order-service/create'
-
-    # Headers com o token de autorização
+    
     headers = {
-        "Authorization": f"Bearer {token}",
-        "Content-Type": "application/json"
-        
+        'Authorization': f'Bearer {access_token}',
+        'Content-Type': 'application/json'
     }
-
-    # Enviar a requisição POST com os dados da ordem
-    response = requests.post(order_create_url, headers=headers, json=order_data)
-
-    # Verificar se a requisição foi bem-sucedida
+    
+    response = requests.post(order_url, headers=headers, json=order_data)
+    
     if response.status_code == 200:
-        print("Ordem criada com sucesso!")
-        print("Resposta:", response.json())
+        return response.json()
     else:
-        print("Erro ao criar a ordem:", response.json())
+        raise Exception(f"Falha ao criar ordem de serviço: {response.status_code} - {response.text}")
 
-else:
-    print("Erro ao obter o token:", response.json())
+# Fluxo principal do programa
+try:
+    # Obtém o token de acesso
+    access_token = get_access_token()
+    print("Token obtido com sucesso:", access_token)
+    
+    # Cria a ordem de serviço usando o token obtido
+    order_result = create_order(access_token)
+    print("Ordem de serviço criada com sucesso:", order_result)
+    
+except Exception as e:
+    print(f"Erro: {e}")
