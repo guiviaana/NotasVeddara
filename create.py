@@ -94,6 +94,9 @@ try:
     access_token = get_access_token()
     print("Token obtido com sucesso:", access_token)
     
+    # Adicionando log para verificar o fluxo
+    print("Criando ordem de serviço...")
+    
     # Cria a ordem de serviço usando o token obtido
     order_result = create_order(access_token)
     print("Ordem de serviço criada com sucesso:", order_result)
