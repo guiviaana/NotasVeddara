@@ -24,57 +24,57 @@ def get_access_token():
 def create_order(access_token):
     order_url = 'https://dev.mileexpress.com.br/v1/order-service/create'
     order_data = {
-        "volumes": [
-            [
-                {
-                    "item_id": "44",
-                    "description": "POMADA 20mg",
-                    "sku": "4456456456456546456",
-                    "commercial_value": 18.87,
-                    "quantity": "1",
-                    "customs_tax_classes_id": 11,
-                    "customs_administrative_processes_id": "1"
-                }
-            ]
+    "volumes": [
+        [
+            {
+                "item_id": "44",
+                "description": "POMADA 20mg",
+                "sku": "4456456456456546456",
+                "commercial_value": 18.87,
+                "quantity": "1",
+                "customs_tax_classes_id": 11,
+                "customs_administrative_processes_id": "1"
+            }
+        ]
+    ],
+    "description": "POMADA  20mg",
+    "freight": 35.85,
+    "commercial_value": 18.87,
+    "currency_id": 2,
+    "importer": {
+        "name": "teste maior segundo",
+        "addresses": [
+            {
+                "number": 432,
+                "additional_info": None,
+                "country_id": 35,
+                "zip_code": "8805",
+                "address": "Rua",
+                "city": {
+                    "name": "FlorianÃ³polis",
+                    "uf": "SC"
+                },
+                "neighborhood": "Sa"
+            }
         ],
-        "description": "POMADA 20mg",
-        "freight": 35.85,
-        "commercial_value": 18.87,
-        "currency_id": 2,
-        "importer": {
-            "name": "teste maior segundo",
-            "addresses": [
-                {
-                    "number": 432,
-                    "additional_info": None,  # Corrigido de null para None
-                    "country_id": 35,
-                    "zip_code": "8805",
-                    "address": "Rua",
-                    "city": {
-                        "name": "Florianopolis",
-                        "uf": "SC"
-                    },
-                    "neighborhood": "Sa"
-                }
-            ],
-            "documents": [
-                {
-                    "type": "CPF",
-                    "number": "111111111111"
-                }
-            ],
-            "email": [
-                {
-                    "address": "teste@segundo.com"
-                }
-            ]
-        },
-        "status_order": "ativo",
-        "company_id": "1",
-        "integration": True,
-        "by_pass_stock": True,
-        "shipper_id": "1"
-    }
+        "documents": [
+            {
+                "type": "CPF",
+                "number": "111111111111"
+            }
+        ],
+        "email": [
+            {
+                "address": "teste@segundo.com"
+            }
+        ]
+    },
+    "status_order": "ativo",
+    "company_id": "1",
+    "integration": True,
+    "by_pass_stock": True,
+    "shipper_id": "1031"
+}
     
     headers = {
         'Authorization': f'Bearer {access_token}',
@@ -83,7 +83,7 @@ def create_order(access_token):
     
     response = requests.post(order_url, headers=headers, json=order_data)
     
-    if response.status_code == 200:
+    if response.status_code in [200, 201]:
         return response.json()
     else:
         raise Exception(f"Falha ao criar ordem de serviço: {response.status_code} - {response.text}")
