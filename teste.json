@@ -1,0 +1,53 @@
+{
+    "volumes": [
+      [
+        {
+          "item_id": "44",
+          "description": "POMADA 20mg",
+          "sku": "4456456456456546456",
+          "commercial_value": 18.87,
+          "quantity": "1",
+          "customs_tax_classes_id": 11,
+          "customs_administrative_processes_id": "1"
+        }
+      ]
+    ],
+    "description": "POMADA 20mg",
+    "freight": 35.85,
+    "commercial_value": 18.87,
+    "currency_id": 2,
+    "importer": {
+      "name": "teste maior segundo",
+      "addresses": [
+        {
+          "number": 432,
+          "additional_info": null,
+          "country_id": 35,
+          "zip_code": "8805",
+          "address": "Rua",
+          "city": {
+            "name": "Florianópolis",
+            "uf": "SC"
+          },
+          "neighborhood": "Sa"
+        }
+      ],
+      "documents": [
+        {
+          "type": "CPF",
+          "number": "111111111111"
+        }
+      ],
+      "email": [
+        {
+          "address": "teste@segundo.com"
+        }
+      ]
+    },
+    "status_order": "ativo",
+    "company_id": "1",
+    "integration": true,
+    "by_pass_stock": true,
+    "shipper_id": "1031"
+  }
+  
