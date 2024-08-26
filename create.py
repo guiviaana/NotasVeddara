@@ -3,7 +3,7 @@ import json
 
 # Função para obter o token de acesso
 def get_access_token():
-    token_url = 'https://dev.mileexpress.com.br/oauth/token'
+    token_url = 'https://191.235.68.216/oauth/token'  # URL atualizado
     login_data = {
         "grant_type": "password",
         "client_id": 1,
@@ -13,7 +13,7 @@ def get_access_token():
         "scope": "*"
     }
     
-    response = requests.post(token_url, headers={'Content-Type': 'application/json'}, json=login_data)
+    response = requests.post(token_url, headers={'Content-Type': 'application/json'}, json=login_data, verify=False)
     
     if response.status_code == 200:
         return response.json()['access_token']
@@ -22,7 +22,7 @@ def get_access_token():
 
 # Função para criar a ordem de serviço
 def create_order(access_token):
-    order_url = 'https://dev.mileexpress.com.br/v1/order-service/create'
+    order_url = 'https://191.235.68.216/v1/order-service/create'  # URL atualizado
     order_data = {
         "volumes": [
             [
@@ -51,7 +51,7 @@ def create_order(access_token):
                     "zip_code": "8805",
                     "address": "Rua",
                     "city": {
-                        "name": "FlorianÃ³polis",
+                        "name": "Florianópolis",
                         "uf": "SC"
                     },
                     "neighborhood": "Sa"
@@ -81,7 +81,7 @@ def create_order(access_token):
         'Content-Type': 'application/json'
     }
     
-    response = requests.post(order_url, headers=headers, json=order_data)
+    response = requests.post(order_url, headers=headers, json=order_data, verify=False)
     
     if response.status_code in [200, 201]:
         return response.json()

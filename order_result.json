@@ -1,15 +1,15 @@
 {
     "data": {
-        "id": 225,
-        "code": "MIE20240710M225",
+        "id": 226,
+        "code": "MIE20240826M226",
         "description": "POMADA  20mg",
         "freight": "35,85",
         "commercial_value": "18,87",
         "is_transmitted": false,
         "volumes": [
             {
-                "id": 229,
-                "order_service_id": 225,
+                "id": 230,
+                "order_service_id": 226,
                 "description": "POMADA 20mg",
                 "commercial_value": "18,87",
                 "quantity": "1",
@@ -36,20 +36,20 @@
             "code": "USD"
         },
         "importer": {
-            "id": 1311,
+            "id": 1312,
             "name": "teste maior segundo",
             "company_id": null,
             "addresses": [
                 {
-                    "id": 2291,
+                    "id": 2292,
                     "number": "432",
                     "additional_info": null,
                     "country_id": 35,
                     "zip_code": "8805",
                     "address": "Rua",
-                    "city": "FlorianÃ³polis",
-                    "city_ibge_code": "",
-                    "cities_id": 5607,
+                    "city": "FLORIANOPOLIS",
+                    "city_ibge_code": "05407",
+                    "cities_id": 4495,
                     "state": "SC",
                     "neighborhood": "Sa",
                     "country": {
@@ -62,7 +62,7 @@
             ],
             "documents": [
                 {
-                    "id": 1628,
+                    "id": 1629,
                     "type": "CPF",
                     "number": "111111111111"
                 }
