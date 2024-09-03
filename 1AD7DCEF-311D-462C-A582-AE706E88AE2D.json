@@ -1,0 +1,62 @@
+{
+    "volumes": [
+     [
+       {
+         "item_id": "O010I01", 
+         "description": "produto1",
+         "sku": "4456456456456546456",
+         "commercial_value": 18.87,
+         "quantity": "1",
+         "customs_tax_classes_id": 11,
+         "customs_administrative_processes_id": "1"
+       }
+        ,
+       {
+         "item_id": "AL2K3L", 
+         "description": "produto2",
+         "sku": "4456456456456546456",
+         "commercial_value": 18.87,
+         "quantity": "1",
+         "customs_tax_classes_id": 11,
+         "customs_administrative_processes_id": "1"
+       }
+     ]
+   ],
+   "description": "Produto1/produto2",
+   "freight": 35.85,
+   "commercial_value": 37.74,
+   "currency_id": 2,
+   "importer": {
+     "name": "Cliente",
+     "addresses": [
+       {
+         "number": 432,
+         "additional_info": null,
+         "country_id": 35,
+         "zip_code": "8805",
+         "address": "Rua",
+         "city": {
+           "name": "Florianópolis",
+           "uf": "SC"
+         },
+         "neighborhood": "Bairro"
+       }
+     ],
+     "documents": [
+       {
+         "type": "CPF",
+         "number": "111111111111"
+       }
+     ],
+     "email": [
+       {
+         "address": "teste@segundo.com"
+       }
+     ]
+   },
+   "status_order": "ativo",
+   "company_id": "1",
+   "integration": true,
+   "by_pass_stock": true,
+   "shipper_id": "1031"
+}
