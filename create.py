@@ -3,7 +3,7 @@ import json
 
 # Função para obter o token de acesso
 def get_access_token():
-    token_url = 'https://191.235.68.216/oauth/token'  # URL atualizado
+    token_url = 'https://191.235.65.21/oauth/token'  # URL atualizado
     login_data = {
         "grant_type": "password",
         "client_id": 1,
@@ -22,7 +22,7 @@ def get_access_token():
 
 # Função para criar a ordem de serviço
 def create_order(access_token, order_data):
-    order_url = 'https://191.235.68.216/v1/order-service/create'  # URL atualizado
+    order_url = 'https://191.235.65.21/v1/order-service/create'  # URL atualizado
     
     headers = {
         'Authorization': f'Bearer {access_token}',
@@ -49,7 +49,7 @@ def read_order_data_from_file(filename):
 # Fluxo principal do programa
 try:
     # Lê os dados da ordem de serviço a partir do arquivo JSON
-    order_data = read_order_data_from_file('teste.json')
+    order_data = read_order_data_from_file('teste2.json')
     
     # Obtém o token de acesso
     access_token = get_access_token()
