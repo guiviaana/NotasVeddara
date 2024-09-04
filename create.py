@@ -48,10 +48,27 @@ def export_to_json(data, filename):
     with open(filename, 'w', encoding='utf-8') as json_file:
         json.dump(data, json_file, ensure_ascii=False, indent=4)
 
-# Função para ler os dados do arquivo JSON
-def read_order_data_from_file(filename):
+# Função para ler e ajustar os dados do arquivo JSON
+def read_and_adjust_order_data(filename):
     with open(filename, 'r', encoding='utf-8') as json_file:
-        return json.load(json_file)
+        order_data = json.load(json_file)
+    
+    return adjust_json_format(order_data)
+
+# Função para ajustar o formato do JSON
+def adjust_json_format(order_data):
+    # Ajustando o campo 'volumes' para ser uma lista de listas de dicionários
+    if isinstance(order_data.get("volumes"), dict):
+        order_data["volumes"] = [[order_data["volumes"]]]
+
+    # Ajustando o campo 'city' para ser um dicionário único ao invés de uma lista
+    importer = order_data.get("importer", {})
+    addresses = importer.get("addresses", [])
+    for address in addresses:
+        if isinstance(address.get("city"), list) and len(address["city"]) > 0:
+            address["city"] = address["city"][0]
+
+    return order_data
 
 # Função para carregar os arquivos processados do log
 def load_processed_files(log_file):
@@ -74,8 +91,8 @@ def process_json_file(json_file, access_token, processed_files):
     try:
         print(f"Processando arquivo: {json_file}")
         
-        # Lê os dados do arquivo JSON
-        order_data = read_order_data_from_file(json_file)
+        # Lê e ajusta os dados do arquivo JSON
+        order_data = read_and_adjust_order_data(json_file)
         
         # Tenta criar a ordem de serviço
         try:
