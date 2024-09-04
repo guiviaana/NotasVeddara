@@ -7,6 +7,11 @@ from watchdog.events import FileSystemEventHandler
 import time
 
 log_file_path = '/Users/guilherme/Downloads/processed_files.log'
+error_log_file_path = '/Users/guilherme/Downloads/error_files.log'
+
+# Variáveis de contagem
+json_count = 0
+success_count = 0
 
 # Função para obter o token de acesso
 def get_access_token():
@@ -57,11 +62,9 @@ def read_and_adjust_order_data(filename):
 
 # Função para ajustar o formato do JSON
 def adjust_json_format(order_data):
-    # Ajustando o campo 'volumes' para ser uma lista de listas de dicionários
     if isinstance(order_data.get("volumes"), dict):
         order_data["volumes"] = [[order_data["volumes"]]]
 
-    # Ajustando o campo 'city' para ser um dicionário único ao invés de uma lista
     importer = order_data.get("importer", {})
     addresses = importer.get("addresses", [])
     for address in addresses:
@@ -82,12 +85,21 @@ def save_processed_file(log_file, filename):
     with open(log_file, 'a', encoding='utf-8') as f:
         f.write(filename + '\n')
 
+# Função para salvar os arquivos com erros no log de erros
+def save_error_file(log_file, filename, error_message):
+    with open(log_file, 'a', encoding='utf-8') as f:
+        f.write(f"{filename}: {error_message}\n")
+
 # Função principal para processar arquivos JSON
 def process_json_file(json_file, access_token, processed_files):
+    global json_count, success_count
+    
     if json_file in processed_files:
         print(f"O arquivo {json_file} já foi processado. Ignorando...")
         return
 
+    json_count += 1  # Incrementa a contagem de JSON lidos
+    
     try:
         print(f"Processando arquivo: {json_file}")
         
@@ -108,17 +120,23 @@ def process_json_file(json_file, access_token, processed_files):
             
             # Salva o arquivo no log de arquivos processados
             save_processed_file(log_file_path, json_file)
+            
+            success_count += 1  # Incrementa a contagem de ordens criadas com sucesso
 
         except Exception as e:
             print(f"Erro ao criar ordem de serviço para o arquivo {json_file}: {e}")
+            save_error_file(error_log_file_path, json_file, str(e))
 
-    except json.JSONDecodeError:
+    except json.JSONDecodeError as e:
         print(f"Erro ao decodificar o arquivo JSON {json_file}. Verifique o formato do arquivo.")
+        save_error_file(error_log_file_path, json_file, f"JSONDecodeError: {str(e)}")
     except Exception as e:
         print(f"Erro inesperado ao processar o arquivo {json_file}: {e}")
+        save_error_file(error_log_file_path, json_file, str(e))
 
 # Função para processar todos os arquivos JSON na pasta ao iniciar
 def process_all_json_files_in_folder(folder_path):
+    global json_count, success_count
     processed_files = load_processed_files(log_file_path)
     access_token = get_access_token()
     
@@ -126,6 +144,10 @@ def process_all_json_files_in_folder(folder_path):
     
     for json_file in json_files:
         process_json_file(json_file, access_token, processed_files)
+    
+    # Exibe o resultado das contagens
+    print(f"Total de arquivos JSON lidos: {json_count}")
+    print(f"Total de ordens criadas com sucesso: {success_count}")
 
 # Handler do watchdog para monitorar novos arquivos
 class NewFileHandler(FileSystemEventHandler):
@@ -139,6 +161,9 @@ class NewFileHandler(FileSystemEventHandler):
             return
         if event.src_path.endswith('.json'):
             process_json_file(event.src_path, self.access_token, self.processed_files)
+            # Exibe as contagens sempre que um arquivo for processado
+            print(f"Total de arquivos JSON lidos até agora: {json_count}")
+            print(f"Total de ordens criadas com sucesso até agora: {success_count}")
 
 # Função para monitorar a pasta e processar novos arquivos JSON
 def monitor_folder(folder_path):
