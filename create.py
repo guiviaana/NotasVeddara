@@ -2,6 +2,11 @@ import os
 import glob
 import requests
 import json
+from watchdog.observers import Observer
+from watchdog.events import FileSystemEventHandler
+import time
+
+log_file_path = '/Users/guilherme/Downloads/processed_files.log'
 
 # Função para obter o token de acesso
 def get_access_token():
@@ -48,66 +53,95 @@ def read_order_data_from_file(filename):
     with open(filename, 'r', encoding='utf-8') as json_file:
         return json.load(json_file)
 
-# Função principal para processar todos os arquivos JSON em uma pasta
-def process_json_files_in_folder(folder_path, export_folder_path):
+# Função para carregar os arquivos processados do log
+def load_processed_files(log_file):
+    if os.path.exists(log_file):
+        with open(log_file, 'r', encoding='utf-8') as f:
+            return set(line.strip() for line in f.readlines())
+    return set()
+
+# Função para salvar os arquivos processados no log
+def save_processed_file(log_file, filename):
+    with open(log_file, 'a', encoding='utf-8') as f:
+        f.write(filename + '\n')
+
+# Função principal para processar arquivos JSON
+def process_json_file(json_file, access_token, processed_files):
+    if json_file in processed_files:
+        print(f"O arquivo {json_file} já foi processado. Ignorando...")
+        return
+
     try:
-        # Obtém o token de acesso
-        access_token = get_access_token()
-        print("Token obtido com sucesso:", access_token)
-
-        # Encontra todos os arquivos JSON na pasta
-        json_files = glob.glob(os.path.join(folder_path, '*.json'))
-        total_files = len(json_files)
-        processed_files = 0
+        print(f"Processando arquivo: {json_file}")
         
-        print(f"Arquivos JSON encontrados: {json_files}")
-
-        for json_file in json_files:
-            print(f"Processando arquivo: {json_file}")
-            
-            try:
-                # Lê os dados do arquivo JSON
-                order_data = read_order_data_from_file(json_file)
-                
-                # Tenta criar a ordem de serviço
-                try:
-                    order_result = create_order(access_token, order_data)
-                    print(f"Ordem de serviço criada com sucesso para {json_file}: {order_result}")
-                    
-                    # Gera o nome do arquivo de saída com o mesmo nome do arquivo original
-                    output_filename = os.path.join(export_folder_path, os.path.splitext(os.path.basename(json_file))[0] + '_result.json')
-                    
-                    # Exporta os dados da ordem de serviço para um arquivo JSON
-                    export_to_json(order_result, output_filename)
-                    print(f"Dados exportados para {output_filename}")
-                    
-                    processed_files += 1
-
-                except Exception as e:
-                    # Captura o erro ao criar a ordem de serviço e continua o loop
-                    print(f"Erro ao criar ordem de serviço para o arquivo {json_file}: {e}")
-                    print("Continuando para o próximo arquivo...")
-                    continue  # Garante que o loop continue para o próximo arquivo
-            
-            except json.JSONDecodeError:
-                print(f"Erro ao decodificar o arquivo JSON {json_file}. Verifique o formato do arquivo.")
-                print("Continuando para o próximo arquivo...")
-                continue  # Continua para o próximo arquivo
-            except Exception as e:
-                print(f"Erro inesperado ao processar o arquivo {json_file}: {e}")
-                print("Continuando para o próximo arquivo...")
-                continue  # Continua para o próximo arquivo
+        # Lê os dados do arquivo JSON
+        order_data = read_order_data_from_file(json_file)
         
-        print(f"Todos os arquivos foram processados. Total de arquivos processados: {processed_files} de {total_files}.")
-    
+        # Tenta criar a ordem de serviço
+        try:
+            order_result = create_order(access_token, order_data)
+            print(f"Ordem de serviço criada com sucesso para {json_file}: {order_result}")
+            
+            # Gera o nome do arquivo de saída com o mesmo nome do arquivo original
+            output_filename = os.path.join('/Users/guilherme/Downloads/Export', os.path.basename(os.path.splitext(json_file)[0] + '_result.json'))
+            
+            # Exporta os dados da ordem de serviço para um arquivo JSON
+            export_to_json(order_result, output_filename)
+            print(f"Dados exportados para {output_filename}")
+            
+            # Salva o arquivo no log de arquivos processados
+            save_processed_file(log_file_path, json_file)
+
+        except Exception as e:
+            print(f"Erro ao criar ordem de serviço para o arquivo {json_file}: {e}")
+
+    except json.JSONDecodeError:
+        print(f"Erro ao decodificar o arquivo JSON {json_file}. Verifique o formato do arquivo.")
     except Exception as e:
-        print(f"Erro ao obter o token ou ao processar a pasta: {e}")
+        print(f"Erro inesperado ao processar o arquivo {json_file}: {e}")
 
-# Caminho para a pasta que contém os arquivos JSON e a pasta de exportação
-input_folder_path = '/Users/guilherme/Downloads/Send'
-export_folder_path = '/Users/guilherme/Downloads/Export'
+# Função para processar todos os arquivos JSON na pasta ao iniciar
+def process_all_json_files_in_folder(folder_path):
+    processed_files = load_processed_files(log_file_path)
+    access_token = get_access_token()
+    
+    json_files = glob.glob(os.path.join(folder_path, '*.json'))
+    
+    for json_file in json_files:
+        process_json_file(json_file, access_token, processed_files)
 
-# Garante que a pasta de exportação existe
-os.makedirs(export_folder_path, exist_ok=True)
+# Handler do watchdog para monitorar novos arquivos
+class NewFileHandler(FileSystemEventHandler):
+    def __init__(self, folder_path):
+        self.folder_path = folder_path
+        self.processed_files = load_processed_files(log_file_path)
+        self.access_token = get_access_token()
+    
+    def on_created(self, event):
+        if event.is_directory:
+            return
+        if event.src_path.endswith('.json'):
+            process_json_file(event.src_path, self.access_token, self.processed_files)
 
-process_json_files_in_folder(input_folder_path, export_folder_path)
+# Função para monitorar a pasta e processar novos arquivos JSON
+def monitor_folder(folder_path):
+    event_handler = NewFileHandler(folder_path)
+    observer = Observer()
+    observer.schedule(event_handler, path=folder_path, recursive=False)
+    observer.start()
+    
+    try:
+        while True:
+            time.sleep(1)
+    except KeyboardInterrupt:
+        observer.stop()
+    observer.join()
+
+# Caminho para a pasta que contém os arquivos JSON
+folder_path = '/Users/guilherme/Downloads/Send'
+
+# Processa todos os arquivos JSON na pasta inicialmente
+process_all_json_files_in_folder(folder_path)
+
+# Monitora a pasta para novos arquivos
+monitor_folder(folder_path)
