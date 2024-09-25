@@ -6,8 +6,8 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 import time
 
-log_file_path = '/Users/guilherme/Downloads/processed_files.log'
-error_log_file_path = '/Users/guilherme/Downloads/error_files.log'
+log_file_path = r'C:\Mile_Express\logs\processed_files.log'
+error_log_file_path = r'C:\Mile_Express\logs\error_files.log'
 
 # Variáveis de contagem
 json_count = 0
@@ -112,7 +112,7 @@ def process_json_file(json_file, access_token, processed_files):
             print(f"Ordem de serviço criada com sucesso para {json_file}: {order_result}")
             
             # Gera o nome do arquivo de saída com o mesmo nome do arquivo original
-            output_filename = os.path.join('/Users/guilherme/Downloads/Export', os.path.basename(os.path.splitext(json_file)[0] + '_result.json'))
+            output_filename = os.path.join(r'C:\Mile_Express\received', os.path.basename(os.path.splitext(json_file)[0] + '_result.json'))
             
             # Exporta os dados da ordem de serviço para um arquivo JSON
             export_to_json(order_result, output_filename)
@@ -180,7 +180,7 @@ def monitor_folder(folder_path):
     observer.join()
 
 # Caminho para a pasta que contém os arquivos JSON
-folder_path = '/Users/guilherme/Downloads/Send'
+folder_path = r'C:\Mile_Express\send'
 
 # Processa todos os arquivos JSON na pasta inicialmente
 process_all_json_files_in_folder(folder_path)
