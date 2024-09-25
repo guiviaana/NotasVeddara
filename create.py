@@ -70,7 +70,21 @@ def adjust_json_format(order_data):
     for address in addresses:
         if isinstance(address.get("city"), list) and len(address["city"]) > 0:
             address["city"] = address["city"][0]
- 
+    
+    # Verificar e ajustar o campo by_pass_stock
+    if "by_pass_stock" in order_data and isinstance(order_data["by_pass_stock"], str):
+        if order_data["by_pass_stock"].lower() == "false":
+            order_data["by_pass_stock"] = 0
+        elif order_data["by_pass_stock"].lower() == "true":
+            order_data["by_pass_stock"] = 1
+
+    # Verificar e ajustar o campo integration
+    if "integration" in order_data and isinstance(order_data["integration"], str):
+        if order_data["integration"].lower() == "false":
+            order_data["integration"] = 0
+        elif order_data["integration"].lower() == "true":
+            order_data["integration"] = 1
+
     return order_data
  
 # Função para carregar os arquivos processados do log
