@@ -1,3 +1,5 @@
+# Código para ler o JSON contendo o CEP no arquivo tracking.json na pasta do SQLSRV23
+
 import os
 import json
 import requests

@@ -1,3 +1,5 @@
+# Código para ler o JSON contendo o tracking number no arquivo tracking.json na pasta do SQLSRV23
+
 import requests
 import json
 import os

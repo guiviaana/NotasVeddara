@@ -1,0 +1,1538 @@
+{
+  "data": [
+    {
+      "sku": "850009438454",
+      "description": "NRG FULL SPECTRUM CBD OIL 2.000mg/30ml - NATURAL | Exp. --/----",
+      "current_stock": 121,
+      "reserved_stock": 0,
+      "real_stock": 121,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "613739991138",
+      "description": "NEUROGAN CBD OIL FULL SPECTRUM CITRUS 2000MG /33.3 MG CBD PER SERVING",
+      "current_stock": 96,
+      "reserved_stock": 0,
+      "real_stock": 96,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "784300419280",
+      "description": "VEDDARA/FULL SPECTRUM CBD COOLONG RUB 100 MG PEPPERMINT 60ML ",
+      "current_stock": 89,
+      "reserved_stock": 0,
+      "real_stock": 89,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "784300419334",
+      "description": "VEDDARA / THC FREE BROAD SPECTRUM CBD BALM 1000MG LAVENDER 30G ",
+      "current_stock": 88,
+      "reserved_stock": 0,
+      "real_stock": 88,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "784300419433",
+      "description": "VEDDARA/FULL SPECTRUM CBD TEA WITH CHAMOMILE 400 MG CBD / 20 MG CBD PER TEABAG 28G 20BAGS",
+      "current_stock": 87,
+      "reserved_stock": 0,
+      "real_stock": 87,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "784300419310",
+      "description": "VEDDARA/ FULL SPECTRUM EXTRACT CBD +CBG OIL 1500MG CBD/12.5MG CBD - 1500MG CBD /12.5MG CBG PER SERVING CITRUS FLAVORE 60ML",
+      "current_stock": 86,
+      "reserved_stock": 0,
+      "real_stock": 86,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "784300419259",
+      "description": "VEDDARA/ LONGEVITY WITH QUALITY THC - FREE BROAD SPECTRUM EXTRACT CBD OIL 3000MG /25MG PER SERVING CITRUS FLAVOR BALANCED 60ML",
+      "current_stock": 81,
+      "reserved_stock": 0,
+      "real_stock": 81,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "784300419303",
+      "description": "VEDDARA/FULL SPECTRUM CBN+CBD OIL +MELATONIN 2000MGCBN/33.3MG CBN - 2000MG CBD/33.3MG CBD CHAMOMILE & VANILLA FLAVOR  30 ML",
+      "current_stock": 79,
+      "reserved_stock": 0,
+      "real_stock": 79,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810068550023",
+      "description": "Neurogan CBD + CBG OIL CITRUS BALANCE 1000mg /16.6 CBD & CBG each per serving (30ml)",
+      "current_stock": 76,
+      "reserved_stock": 0,
+      "real_stock": 76,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850009438461",
+      "description": "NRG FULL SPECTRUM CBD OIL 3.000mg/60ml - NATURAL ",
+      "current_stock": 69,
+      "reserved_stock": 0,
+      "real_stock": 69,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "631145833385",
+      "description": "NRG FULL SPECTRUM CBD OIL 5.000mg/60ml - CITRUS | ",
+      "current_stock": 66,
+      "reserved_stock": 0,
+      "real_stock": 66,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "613739991121",
+      "description": "Neurogan Full Spectrum Extract CBD OIL CITRUS 1000 MG CBD / 16.6 MG CBD per serving (30ml",
+      "current_stock": 47,
+      "reserved_stock": 0,
+      "real_stock": 47,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810068551259",
+      "description": "Neurogan Full Spectrum  delta 9 THC Vegan Gummies fresh Watermelon 20 GUMMIES",
+      "current_stock": 46,
+      "reserved_stock": 0,
+      "real_stock": 46,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "631145833125",
+      "description": "NRG FULL SPECTRUM CBD OIL 3.000mg/60ml - CITRUS ",
+      "current_stock": 42,
+      "reserved_stock": 4,
+      "real_stock": 38,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850009438492",
+      "description": "Neurogan Full Spectrum CBD OIL Natural Hemp 5000 mg CBD / 41.6 MG CBD per serving (60ml) 0",
+      "current_stock": 39,
+      "reserved_stock": 0,
+      "real_stock": 39,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "784300419273",
+      "description": "VEDDARA/LONGEVITY WITH QUALITY HEMP EXTRACT CBD SOFTGELS BROAD SPECTRUM WITH 25MG OF CBD PER SOFTGEL 30 COUNT ",
+      "current_stock": 37,
+      "reserved_stock": 0,
+      "real_stock": 37,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "784300419358",
+      "description": "VEDDARA/ HEMP EXTRACT FULL SPECTRUM GUMMIES WITH 25MG OF CBD PER GUMMY 10 COUNT",
+      "current_stock": 37,
+      "reserved_stock": 0,
+      "real_stock": 37,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "784300419365",
+      "description": "VEDDARA/ WATER SOLUBLE NANO CBD WITH 600MG OF CBD PER BOTTLE PEPPERMINT 30ML",
+      "current_stock": 37,
+      "reserved_stock": 0,
+      "real_stock": 37,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "784300419372",
+      "description": "VEDDARA/ WATER SOLUBLE VITAMIN C SERUM WITH 100MG OF CBD PER BOTTLE 30ML",
+      "current_stock": 37,
+      "reserved_stock": 0,
+      "real_stock": 37,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "784300419396",
+      "description": "VEDDARA/ HEMP EXTRACT WEIGHY CONTROL SOFTGELS WITH 25MG OF CBD AND 3MG OF THCV SOFTGEL 30 COUNT ",
+      "current_stock": 37,
+      "reserved_stock": 0,
+      "real_stock": 37,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "784300419419",
+      "description": "VEDDARA/ SLEEP GUMMIES WITH 10MG OF CBN & 25MG OF CBD PER GUMMY 30 COUNT",
+      "current_stock": 37,
+      "reserved_stock": 0,
+      "real_stock": 37,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "784300419297",
+      "description": "VEDDARA/HEMP EXTRACT CURCUMIN SOFTGELS WITH 30MG OF CBD AND 15MG OF curcumin per Softgel 30 COUNT",
+      "current_stock": 33,
+      "reserved_stock": 0,
+      "real_stock": 33,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "784300419402",
+      "description": "VEDDARA/ IMMUNE SUPPORT GUMMIES WITH 25 MG OF CBD PER GUMMY 30 COUNT",
+      "current_stock": 33,
+      "reserved_stock": 0,
+      "real_stock": 33,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "784300419389",
+      "description": "VEDDARA/HEMP EXTRACT PURE PASSION WITH 300MG OF CBD PER BOTTLE WATER BASED FOR INTIMATE PLEASURE 60 ML",
+      "current_stock": 29,
+      "reserved_stock": 0,
+      "real_stock": 29,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "784300419426",
+      "description": "VEDDARA/ SMART BLEND MORE THAN JUST A COFFEE WITH 25MG OF CBD PER SERVING ",
+      "current_stock": 28,
+      "reserved_stock": 0,
+      "real_stock": 28,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850009438850",
+      "description": "NRG FULL SPECTRUM EXTRACT CBD OIL 12.000mg/60ml - CITRUS ",
+      "current_stock": 24,
+      "reserved_stock": 0,
+      "real_stock": 24,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850012535478",
+      "description": "THC FREE BROAD SPECTRUM CBD OIL 3000MG CITRUS 60ML",
+      "current_stock": 23,
+      "reserved_stock": 0,
+      "real_stock": 23,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850015842788",
+      "description": "CBD SLEEP GUMMIES VEGGAN W/MELATONIN WILD BERRY 1350MG/45MG CBD PER SERVIND 90MG/3MG MELATONIN",
+      "current_stock": 19,
+      "reserved_stock": 0,
+      "real_stock": 19,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "784300419327",
+      "description": "VEDDARA/FULL SPECTRUM EXTRACT CBD OIL 5000MG/ 41.6MG PER SEREVING CITRUS FLAVOR ROBUST 60ML",
+      "current_stock": 18,
+      "reserved_stock": 0,
+      "real_stock": 18,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810068551075",
+      "description": "NEUROGAN FULL SPECTRUM CBD REST GUMMIES TERPENES (INDICA ) 100% PLANT BASED WATERMELON 30 VEGAN GUMMIES",
+      "current_stock": 15,
+      "reserved_stock": 0,
+      "real_stock": 15,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850012535294",
+      "description": "NEUROGAN THC FREE BROAD SPECTRUM CBD OIL 2000MG TOTAL CBD  30ML",
+      "current_stock": 14,
+      "reserved_stock": 0,
+      "real_stock": 14,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "843119101059",
+      "description": "Charlottes web Hemp Extract Mint Chocolate 100 ml, 5000 mg",
+      "current_stock": 14,
+      "reserved_stock": 0,
+      "real_stock": 14,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "843119101066",
+      "description": "Charlottes web Olive Oil 50 mg, 3.38 fl 100 ml 0",
+      "current_stock": 13,
+      "reserved_stock": 0,
+      "real_stock": 13,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810068551389",
+      "description": "NEUROGAN FULL SPECTRUM CBN OIL CALM 2000MG CBD + 2000MG CBN 60",
+      "current_stock": 13,
+      "reserved_stock": 0,
+      "real_stock": 13,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850009438447",
+      "description": "Neurogan Full Spectrum CBD OIL Natural Hemp 1000 mg/ 16.6 mg CBD per serving 1 oz (30 ml)",
+      "current_stock": 12,
+      "reserved_stock": 0,
+      "real_stock": 12,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "631145833378",
+      "description": " Neurogan Full Spectrum CBD OIL CITRUS 4000 MG / 33.3 MG CBD per serving (60ml)",
+      "current_stock": 10,
+      "reserved_stock": 0,
+      "real_stock": 10,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810068550047",
+      "description": " Neurogan Full Spectrum Extract CBG OIL CITRUS FOCUS 2000MG CBG/33.3 MG CBG per serving (30ml)",
+      "current_stock": 10,
+      "reserved_stock": 0,
+      "real_stock": 10,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850009438478",
+      "description": "NRG FULL SPECTRUM CBD OIL 4.000mg/60ml - NATURAL ",
+      "current_stock": 10,
+      "reserved_stock": 0,
+      "real_stock": 10,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810068550177",
+      "description": "NEUROGAN FULL SPECTRUM CBD + CBG BALANCE VEGAN GUMMIES FRESH WATERMELON 675MG 30 GUMMIES",
+      "current_stock": 10,
+      "reserved_stock": 0,
+      "real_stock": 10,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810068550658",
+      "description": "NEUROGAN FULL SPECTRUM CBD BALM LAVENDER 4000 MG TOTAL CBD 60ML",
+      "current_stock": 10,
+      "reserved_stock": 0,
+      "real_stock": 10,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810068551044",
+      "description": "Neurogan Full Spectrum EXTRA STRENGTH SOFGELS CBD 7500 MG TOTAL CBD /125 MG per serving",
+      "current_stock": 10,
+      "reserved_stock": 0,
+      "real_stock": 10,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850009438690",
+      "description": "Neurogan Full Spectrum CBD MASSAGE OIL 4000 mg CBD LAVENDER (237 ml)",
+      "current_stock": 10,
+      "reserved_stock": 0,
+      "real_stock": 10,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810068550702",
+      "description": "NEUROGAN CBD COOLING RUB MUSCLE & JOINT 2000MG",
+      "current_stock": 9,
+      "reserved_stock": 0,
+      "real_stock": 9,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810068550672",
+      "description": "Neurogan Full Spectrum CBD LOTION 16000 mg CBD ROSEMARY & LAVENDER (237 ml)",
+      "current_stock": 9,
+      "reserved_stock": 0,
+      "real_stock": 9,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850015842306",
+      "description": "Neurogan full Spectrum CBD GUMMY SQUARES FRESH WATERMELON Ultra 1350 mg CBD / 45 CBD per serving 30 gummies",
+      "current_stock": 8,
+      "reserved_stock": 0,
+      "real_stock": 8,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810068550078",
+      "description": "Neurogan Full Spectrum CBG FOCUS GUMMIES FRESH WATERMELON 1350 mg / 45 mg CBG per serving 30 gummies",
+      "current_stock": 8,
+      "reserved_stock": 0,
+      "real_stock": 8,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "631145833774",
+      "description": "Neurogan Full Spectrum CBD FACE CREAM 500 mg Total CBD (30ml)",
+      "current_stock": 8,
+      "reserved_stock": 0,
+      "real_stock": 8,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850009438430",
+      "description": "NEUROGAN FULL SPECTRUM CBD OIL NATURAL HEMP 500MG/8.3 CBD PER SERVING 30ML",
+      "current_stock": 8,
+      "reserved_stock": 0,
+      "real_stock": 8,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "613739991107",
+      "description": "NEUROGAN FULL SPECTRUM CBD OIL CITRUS 500MG / 8.3MG CBD PER SERVING 30ML",
+      "current_stock": 8,
+      "reserved_stock": 0,
+      "real_stock": 8,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850009438959",
+      "description": "FULL SPECTRUM EXTRACT CBD OIL 12000 MG 100MG CBD PER SERVING ",
+      "current_stock": 7,
+      "reserved_stock": 0,
+      "real_stock": 7,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810068550610",
+      "description": "NRG FULL SPECTRUM CBD ROLL ON 4.000mg/65gr - PEPPERMINT | ",
+      "current_stock": 6,
+      "reserved_stock": 0,
+      "real_stock": 6,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850012535591",
+      "description": "NEUROGAN THC FREE BROAD SPECTRUM CBD OIL 12000MG TOTAL CBD 100MG CBD PER SERVING 60ML",
+      "current_stock": 6,
+      "reserved_stock": 0,
+      "real_stock": 6,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810068550788",
+      "description": "NEUROGAN FULL SPECTRUM CBD + CBN VEGAN GUMMIES 30 GUMMIES",
+      "current_stock": 6,
+      "reserved_stock": 0,
+      "real_stock": 6,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810068551082",
+      "description": "NRG FULL SPECTRUM CBD GUMMIES SATIVA 3.600mg /30gummies - PINEAPPLE | Exp. --/----",
+      "current_stock": 6,
+      "reserved_stock": 0,
+      "real_stock": 6,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810061151357",
+      "description": "LAZARUS NATURALS FULL SPECTRUM 6000MG CBD 50 MG CBD PER ML CLASSIC HIGH POTENCY 120 ML",
+      "current_stock": 6,
+      "reserved_stock": 5,
+      "real_stock": 1,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850012535607",
+      "description": "Neurogan Full Spectrum CBD SOFTGELS 2400 CBD / 40 mg CBD per serving (40g) 60 vegan sopftgels 0",
+      "current_stock": 5,
+      "reserved_stock": 0,
+      "real_stock": 5,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810068551280",
+      "description": "NEUROGANFUSION INFLAMMATION FIGHTER ACV + CBD GUMMIES VEGAN 1000MG 30 GUMMIES",
+      "current_stock": 5,
+      "reserved_stock": 0,
+      "real_stock": 5,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810042980327",
+      "description": "Elixinol DAily Balance CBD Tincture CINNAMINT 1000 MG CBD 16 MG CBD per serving 2fl oz/ 60 ml",
+      "current_stock": 5,
+      "reserved_stock": 0,
+      "real_stock": 5,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850006853748",
+      "description": "ASPEN GREEN BLISS 110 TROPICAL 30 ML",
+      "current_stock": 5,
+      "reserved_stock": 0,
+      "real_stock": 5,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810068551235",
+      "description": "NEUROGAN FULL SPECTRUM CBD GUMMY SQUARES WATERMELON & WILD BERRY 2400MG CBD/90MG CBD PER SERVING 30 GUMMIES",
+      "current_stock": 4,
+      "reserved_stock": 0,
+      "real_stock": 4,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810042981935",
+      "description": "elixinol Sleep Rapid Rest cbd+cbn,Chamomile & lemon Balm Liposome Vanilla Bean 5 mg CBD 1000mg cbd per Bottle 3.4 fl oz/100 ml",
+      "current_stock": 4,
+      "reserved_stock": 0,
+      "real_stock": 4,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810068551136",
+      "description": "Neurogan full spectrum cbd + cbg oil 1200 mg",
+      "current_stock": 3,
+      "reserved_stock": 0,
+      "real_stock": 3,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810068551068",
+      "description": "Neurogan CELLULAR REPAIR SERUM NMN 2000 MG + CBD 2000 MG with marine complex chamomile (60ml) 0",
+      "current_stock": 3,
+      "reserved_stock": 0,
+      "real_stock": 3,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810042981850",
+      "description": " Elixinol Active Sports Gel 1000 mg CBD 100ML",
+      "current_stock": 3,
+      "reserved_stock": 0,
+      "real_stock": 3,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810042980198",
+      "description": "elixinol sleep good night, cbd + melatonin, 15 mg cbd, 60 capsules",
+      "current_stock": 2,
+      "reserved_stock": 0,
+      "real_stock": 2,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810042980228",
+      "description": "ELIXINOL CALM STRESS sUPPORT CBD + ASWAGANDHA 15 mg CBD 60 Capsules / 900 mg cbd per bottle",
+      "current_stock": 2,
+      "reserved_stock": 0,
+      "real_stock": 2,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810042981904",
+      "description": "ELIXINOL EVERYDAY RAPID RESET ABSORPTION-READY CITRUS TWIST NATURALY FLOVORED  5MG CBD 300MG CBD PER BOTTLE 30 ML",
+      "current_stock": 2,
+      "reserved_stock": 0,
+      "real_stock": 2,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810042981812",
+      "description": " ELIXINOL EVERYDAY TINTURE THC FREE SPEARMINT 500 MG CBD",
+      "current_stock": 2,
+      "reserved_stock": 0,
+      "real_stock": 2,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810042981836",
+      "description": "Elixinol Active Sports Gel CBD+ CAPSAICIN 7 ARNICA HYDRATING NON - GREASY GEL 2000 MG CBD 6oz/200ml",
+      "current_stock": 2,
+      "reserved_stock": 0,
+      "real_stock": 2,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810042981928",
+      "description": " elixinol sleep rapid rest, cbd+cbn,chamomile & lemon balm, absorption-ready cbd liposome",
+      "current_stock": 2,
+      "reserved_stock": 0,
+      "real_stock": 2,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810042981430",
+      "description": "ELIXINOL ACTIVE OMEGA TURMERIC CBD+TURMERIC & DHA SUPPORTS ANTIOXIDANT ACTIVITY 15 MG CBD 60 CAPSULES /900 MG",
+      "current_stock": 2,
+      "reserved_stock": 0,
+      "real_stock": 2,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810042980211",
+      "description": "ELIXINOL BODY COMFORT CBD + BOSWELLIA SUPPORTS HEALTY JOINTS 15 MG CBD 60 CAPSULES / 900 MG CBD PER BOTTLE",
+      "current_stock": 2,
+      "reserved_stock": 0,
+      "real_stock": 2,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810042981911",
+      "description": "ELIXINOL EVERYDAY DAILY BALANCE CBD SUPPORTS OVERALL WELLNESS 15 MG CBD 60 CAPSULES / 900 MG CBD PER BOTTLE ",
+      "current_stock": 2,
+      "reserved_stock": 0,
+      "real_stock": 2,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850006853298",
+      "description": "ASPEN GREEN ORGANIC CBD OIL FULL SPECTRUM EXTRA USDA ORGANIC 100 MG/MI CBD 2.5MG/ML THC MINT 30 ML ",
+      "current_stock": 2,
+      "reserved_stock": 0,
+      "real_stock": 2,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850006853281",
+      "description": "ASPEN GREEN STRONG 67 MG/ML THC",
+      "current_stock": 2,
+      "reserved_stock": 0,
+      "real_stock": 2,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850006853250",
+      "description": "ASPEN GREEN STRONG 67 CITRUS 30ML",
+      "current_stock": 2,
+      "reserved_stock": 0,
+      "real_stock": 2,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850006853267",
+      "description": "ASPEN GREEN EXTRA 100 CITRUS 30 ML ",
+      "current_stock": 2,
+      "reserved_stock": 0,
+      "real_stock": 2,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850006853939",
+      "description": "ASPEN GREEN RELIEF 50MG  CHERRY 3 GUMMIES ",
+      "current_stock": 2,
+      "reserved_stock": 0,
+      "real_stock": 2,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850006853946",
+      "description": "ASPEN GREEN CALM LEMON 25MG 3 GUMMIES",
+      "current_stock": 2,
+      "reserved_stock": 0,
+      "real_stock": 2,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810042980983",
+      "description": "elixinol INNUNE GUT HEALTH CBD + CONCENTRATE GINGER SUPPORT 15 MG CBD 60 CAPSULES 0",
+      "current_stock": 1,
+      "reserved_stock": 0,
+      "real_stock": 1,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850006853076",
+      "description": "ASPEN GREEN STRONG",
+      "current_stock": 1,
+      "reserved_stock": 0,
+      "real_stock": 1,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850006853274",
+      "description": "ASPEN GREEN ORIGINAL  33 MINT 30 ML",
+      "current_stock": 1,
+      "reserved_stock": 0,
+      "real_stock": 1,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850006853243",
+      "description": "ASPEN GREEN ORIGINAL 33 CITRUS 30 ML",
+      "current_stock": 1,
+      "reserved_stock": 0,
+      "real_stock": 1,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850006853083",
+      "description": "ASPEN GREEN EXTRA ",
+      "current_stock": 1,
+      "reserved_stock": 0,
+      "real_stock": 1,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850006853717",
+      "description": "ASPEN GREEN REST 133 BERRY 30 MIL",
+      "current_stock": 1,
+      "reserved_stock": 0,
+      "real_stock": 1,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850006853731",
+      "description": "ASPEN GREEN CALM 50 LEMON 30 ML",
+      "current_stock": 1,
+      "reserved_stock": 0,
+      "real_stock": 1,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850006853380",
+      "description": "ASPEN GREEN CALM MOBILITY 50 BACON FLAVOR",
+      "current_stock": 1,
+      "reserved_stock": 0,
+      "real_stock": 1,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850006853724",
+      "description": "ASPEN GREEN RELIEF 133 CHERRY 30ML",
+      "current_stock": 1,
+      "reserved_stock": 0,
+      "real_stock": 1,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850006853366",
+      "description": "ASPEN GREEN CALM & MOBILITY 8 BACON FLAVOR 30 ML",
+      "current_stock": 1,
+      "reserved_stock": 0,
+      "real_stock": 1,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850006853120",
+      "description": "ASOEN GREEN FULL SPECTRUM CBD RELIEF BALM 1000 33MG 60 ML",
+      "current_stock": 1,
+      "reserved_stock": 0,
+      "real_stock": 1,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850006853113",
+      "description": "ASPEN GREEN FULL SPECTRUM CBD RELIEF COOLING CREAM 1000 MG 33MG 60 ML",
+      "current_stock": 1,
+      "reserved_stock": 0,
+      "real_stock": 1,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850006853540",
+      "description": "ASPEN GREEN ORGANIC CBD SOFT DOG CHEWS FULL SPECTRUM CALM 10 MG 30 SOFT CHEWS",
+      "current_stock": 1,
+      "reserved_stock": 0,
+      "real_stock": 1,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850006853564",
+      "description": "ASPEN GREEN MOBILITY 10MG PEANUT BUTTER FLAVOR 30 SOFT CHEWS ",
+      "current_stock": 1,
+      "reserved_stock": 0,
+      "real_stock": 1,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850006853922",
+      "description": "ASPEN GREEN FEEL BETTER, EVERY DAY REST 50MG BERRY",
+      "current_stock": 1,
+      "reserved_stock": 0,
+      "real_stock": 1,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810042981805",
+      "description": " ELIXINOL Everyday Rapid Reset Absorption-ready CBD liposome 5 mg CBD 1000mg CBD per bottle, citrus twist",
+      "current_stock": 1,
+      "reserved_stock": 0,
+      "real_stock": 1,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "857496007811",
+      "description": " Elixinol Daily Balance CBD Tincture CINNAMINT 4000 MG CBD 33 mg CBD per serving",
+      "current_stock": 1,
+      "reserved_stock": 0,
+      "real_stock": 1,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810042981980",
+      "description": "ELIXINOL Everyday Daily Balance Natural 2000 mg CBD 33 MG CBD per serving 2 fl. oz / 60 ml",
+      "current_stock": 1,
+      "reserved_stock": 0,
+      "real_stock": 1,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810042981843",
+      "description": "ELIXINOL Everyday Daily Balance Extra Strength 45 mg CBD per capsule 60 Capsules/2700mg CBD per bottle",
+      "current_stock": 1,
+      "reserved_stock": 0,
+      "real_stock": 1,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850006853373",
+      "description": "ASPEN GREEN CALM & MOBILITY 25 MG/ML CBD BACON FLAVOR 30MIL",
+      "current_stock": 1,
+      "reserved_stock": 0,
+      "real_stock": 1,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850006853021",
+      "description": "ASPEN GREEN ORIGINAL 33 MG UNFLAVORED 30 ML",
+      "current_stock": 1,
+      "reserved_stock": 0,
+      "real_stock": 1,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810068551181",
+      "description": "NEUROGAN FULL SPECTRUM CBDa OIL",
+      "current_stock": 1,
+      "reserved_stock": 0,
+      "real_stock": 1,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810068551549",
+      "description": "NEUROGAN FULL SPECTRUM CBD OIL ",
+      "current_stock": 1,
+      "reserved_stock": 0,
+      "real_stock": 1,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "850009438201",
+      "description": "NEUROGN FULL SPECTRUM THC OIL 300MG",
+      "current_stock": 1,
+      "reserved_stock": 0,
+      "real_stock": 1,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "843119101219",
+      "description": " Charlottes web 60 mg mint chocolate 3.38 fl oz, 100 ml",
+      "current_stock": 0,
+      "reserved_stock": 0,
+      "real_stock": 0,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810068551228",
+      "description": "Neurogan CBD GUMMIES WATERMELON & WILD BERRY 1350 mg 45 mg",
+      "current_stock": 0,
+      "reserved_stock": 0,
+      "real_stock": 0,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "843119101202",
+      "description": "Charlottes Wed 60 mg mint chocolate flavor 1fl oz (30 ml)",
+      "current_stock": 0,
+      "reserved_stock": 0,
+      "real_stock": 0,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "843119103428",
+      "description": "Chalottes Wed 60mg ORANGE BLOSSOM FLAVOR 6000 MG PER BOTTLE ",
+      "current_stock": 0,
+      "reserved_stock": 0,
+      "real_stock": 0,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "784300419235",
+      "description": "VEDDARA/LONGEVITY WITH QUALITY FULL SPECTRUM EXTRACT CBD OIL 3000MG/25MG CBD PER SERVING CITRUS FLAVORER 60ML",
+      "current_stock": 0,
+      "reserved_stock": 0,
+      "real_stock": 0,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "784300419242",
+      "description": "VEDDARA/LONGEVITY WITH QUALITY FULL SPECTRUM EXTRACT CBD OIL 5000MG/41.6MG PER SERVING CITRUS FLAVOR ROBUST 60ML",
+      "current_stock": 0,
+      "reserved_stock": 0,
+      "real_stock": 0,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810061151333",
+      "description": "LAZARUS NATURALS FULL SPECTRUM CBD TINCTURE 1500MGCBD 50MGCBD PER ML  30ML",
+      "current_stock": 0,
+      "reserved_stock": 2,
+      "real_stock": -2,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810061152880",
+      "description": "LAZARUS NATURALS FULL SPECTRUM CANNABINOID TINCTURE 3000MGCBG 25MG CBG PER ML 3000MGCBD 25MG CBD PER ML CBG:CBD 1:1HIGH POTENCY 120ML 4FL DIETARY SUPPLEMENT",
+      "current_stock": 0,
+      "reserved_stock": 0,
+      "real_stock": 0,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810061150152",
+      "description": "LAZARUS NATURALS FULL SPECTRUM 50MG CBD SOFTGEL 2000MG TOTAL WITH ADDED TERPENES 40 SOFTGELS DIETARY SUPLEMENT ",
+      "current_stock": 0,
+      "reserved_stock": 0,
+      "real_stock": 0,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810061150169",
+      "description": "LAZARUS NATURALS FULL SPECTRUM CBD SOFTGELS 50MG CBD SOFTGEL 10000MG CBD TOTAL WITH ADDED TERPENES  200 SOFTGELS ",
+      "current_stock": 0,
+      "reserved_stock": 0,
+      "real_stock": 0,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "784300419266",
+      "description": "VEDDARA / LONGEVITY WHIT QUALITY FULL SPECTRUM CBD OIL 1000MG/ 16.6 MG PER SERVING CITRUS FLAVOR",
+      "current_stock": 0,
+      "reserved_stock": 0,
+      "real_stock": 0,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "784300419341",
+      "description": "VEDDARA/ FULL SPECTRUM EXTRACT CBD OIL 12000MG/100MG PER SERVING CITRUS FLAVOR HIGH POTENCY 60ML",
+      "current_stock": 0,
+      "reserved_stock": 0,
+      "real_stock": 0,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810068551174",
+      "description": "NEUROGAN FULL SPECTRUM DELTA 8 THC GUMMIES FREAH WATERMELON  20 GUMMIES ",
+      "current_stock": 0,
+      "reserved_stock": 0,
+      "real_stock": 0,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "810068551037",
+      "description": "Neurogan Full Spectrum ULTRA SLEEP THERAPY SOFTGELS 1500 mg Total CBN/25 MG per serving 2700 mg Total CBD/45 MG per serving",
+      "current_stock": 0,
+      "reserved_stock": 0,
+      "real_stock": 0,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    },
+    {
+      "sku": "843119102988",
+      "description": "CHARLOTTES WEB, THC FREE 25 MG HEMP EXTRACT, MINT CHOCOLATE, 750 MG PER BOTTLE 1 FL OZ(30ML)",
+      "current_stock": 0,
+      "reserved_stock": 0,
+      "real_stock": 0,
+      "minimum_stock_alert": 0,
+      "company": {
+        "id": 39,
+        "code": "BIOHEALTH VITAMIN SHOP LLC",
+        "name": "VEDDARA"
+      }
+    }
+  ]
+}
